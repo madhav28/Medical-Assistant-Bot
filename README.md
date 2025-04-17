@@ -1,5 +1,10 @@
 # Medical-Assistant-Bot
 
+## Install Requirements
+```
+pip install -r requirements.txt
+```
+
 ## System Overview
 This AI-powered medical assistant combines two key technologies:
 1. A fine-tuned language model for generating human-like responses
@@ -122,8 +127,8 @@ pubmed_vector_index: https://michiganstate-my.sharepoint.com/:f:/r/personal/lell
 ## Results
 ### Illustration 1
 **Question:** What are the causes and treatments for chronic back pain?<br>
-**Bot Answer:**
-"Chronic back pain is a common condition that can be caused by a variety of factors. Here are some of the most common causes:
+**Bot Answer:**<br>
+Chronic back pain is a common condition that can be caused by a variety of factors. Here are some of the most common causes:
 
 1. Muscle or ligament strain: This is often caused by heavy lifting, poor posture, or sudden movements.
 2. Herniated disc: This occurs when the soft inner material of a disc in the spine bulges out and presses on a nerve.
@@ -153,12 +158,12 @@ Learn more from mle_screening_dataset.csv:
 Learn more from PubMed:
 1. https://pubmed.ncbi.nlm.nih.gov/36958977/
 2. https://pubmed.ncbi.nlm.nih.gov/38942979/
-3. https://pubmed.ncbi.nlm.nih.gov/36448422/"
+3. https://pubmed.ncbi.nlm.nih.gov/36448422/
 
 ### Illustration 2
 **Question:** How can I improve my cardiovascular health?<br>
-**Bot Answer:**
-"Improving cardiovascular health involves adopting a balanced lifestyle that includes regular exercise, a healthy diet, and avoiding harmful habits. Here are some specific steps you can take:
+**Bot Answer:**<br>
+Improving cardiovascular health involves adopting a balanced lifestyle that includes regular exercise, a healthy diet, and avoiding harmful habits. Here are some specific steps you can take:
 
 1. Regular Exercise: Aim for at least 30 minutes of moderate-intensity exercise, such as brisk walking, cycling, or swimming, most days of the week. Incorporate strength training exercises into your routine at least twice a week.
 
@@ -188,12 +193,12 @@ Learn more from mle_screening_dataset.csv:
 Learn more from PubMed:
 1. https://pubmed.ncbi.nlm.nih.gov/39525383/
 2. https://pubmed.ncbi.nlm.nih.gov/37882389/
-3. https://pubmed.ncbi.nlm.nih.gov/36103036/"
+3. https://pubmed.ncbi.nlm.nih.gov/36103036/
 
 ### Illustration 3
 **Question:** What is Down Syndrome?<br>
-**Answer:**
-"Down Syndrome is a genetic disorder caused when abnormal cell division results in an extra full or partial copy of chromosome 21. This extra genetic material causes the developmental changes and physical features of Down Syndrome.
+**Answer:**<br>
+Down Syndrome is a genetic disorder caused when abnormal cell division results in an extra full or partial copy of chromosome 21. This extra genetic material causes the developmental changes and physical features of Down Syndrome.
 
 Individuals with Down Syndrome may have a range of physical and developmental challenges, including cognitive delays, distinctive facial features, and a shortened lifespan compared to the general population. However, it's important to note that each person with Down Syndrome is unique, and many can lead healthy, fulfilling lives with appropriate support and care.
 
@@ -209,4 +214,4 @@ Learn more from mle_screening_dataset.csv:
 Learn more from PubMed:
 1. https://pubmed.ncbi.nlm.nih.gov/39194513/
 2. https://pubmed.ncbi.nlm.nih.gov/39457216/
-3. https://pubmed.ncbi.nlm.nih.gov/39390071/"
+3. https://pubmed.ncbi.nlm.nih.gov/39390071/

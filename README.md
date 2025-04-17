@@ -109,7 +109,7 @@ pubmed_vector_index: https://michiganstate-my.sharepoint.com/:f:/r/personal/lell
    - Includes 3 dataset references from mle screening data
 
 ## 🧪 Evaluation Metrics
-
+**Code:** [evaluation_metrics](./evaluation_metrics)
 ### 📊 Quantitative Analysis
 - **Cosine Similarity Comparison**:
   - QLoRA Finetuned Model: `0.80` mean score

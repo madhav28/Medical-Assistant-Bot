@@ -1,16 +1,29 @@
 # Medical-Assistant-Bot
 
-## ⚙️ System Overview
-This AI-powered medical assistant combines two key technologies:
-1. A fine-tuned language model for generating human-like responses
-2. A document retrieval system for evidence-based reference linking
+## 🚀 System Overview
+An AI-powered medical assistant combining:
+* Fine-tuned LLM: Mistral-7B-Instruct optimized for medical Q&A
+* Evidence Engine: FAISS vector store with 100K+ PubMed abstracts
+* Clinical Reference System: Links responses to verified sources ([mle_screening_dataset.csv](./data/mle_screening_dataset.csv))
 
-## ⬇️ Install Requirements
+This AI-powered medical assistant combines two key technologies:
+* A fine-tuned language model for generating human-like responses
+* A document retrieval system for evidence-based reference linking
+
+## 🛠️ Install Requirements
 ```
 pip install -r requirements.txt
 ```
+## 📋 Implementation Workflow
+1. Data Preparation
+2. QLoRA Finetuning
+3. Vector Store
+4. Answer Generation
+5. Evaluation Metrics
+6. Results
+7. Future Work
 
-## 📋 Dataset Preparation
+## 📚 Dataset Preparation
 To improve the quality of the responses, I have augmented approximately 100K PubMed abstracts from 2023 and 2024. I used these 100K abstracts along with the mle_screening_dataset.csv to create a vector store. For QLoRA fine-tuning of Mistral-7B-Instruct-v0.3, I used a sample of 200 question-and-answer pairs as my training, validation, and testing datasets. I split the 200 samples into 160 for training, 20 for validation, and 20 for testing.
 
 ### Download PubMed Abstracts
@@ -125,7 +138,7 @@ pubmed_vector_index: https://michiganstate-my.sharepoint.com/:f:/r/personal/lell
     - Confirmed clinical context matches
 
 ## ✅ Results
-### 📚 Illustration 1
+### 🧩 Illustration 1
 **Question:** What are the causes and treatments for chronic back pain?<br>
 **Bot Answer:**<br>
 Chronic back pain is a common condition that can be caused by a variety of factors. Here are some of the most common causes:
@@ -160,7 +173,7 @@ Learn more from PubMed:
 2. https://pubmed.ncbi.nlm.nih.gov/38942979/
 3. https://pubmed.ncbi.nlm.nih.gov/36448422/
 
-### 📚 Illustration 2
+### 🧩 Illustration 2
 **Question:** How can I improve my cardiovascular health?<br>
 **Bot Answer:**<br>
 Improving cardiovascular health involves adopting a balanced lifestyle that includes regular exercise, a healthy diet, and avoiding harmful habits. Here are some specific steps you can take:
@@ -195,7 +208,7 @@ Learn more from PubMed:
 2. https://pubmed.ncbi.nlm.nih.gov/37882389/
 3. https://pubmed.ncbi.nlm.nih.gov/36103036/
 
-### 📚 Illustration 3
+### 🧩 Illustration 3
 **Question:** What is Down Syndrome?<br>
 **Answer:**<br>
 Down Syndrome is a genetic disorder caused when abnormal cell division results in an extra full or partial copy of chromosome 21. This extra genetic material causes the developmental changes and physical features of Down Syndrome.
@@ -215,3 +228,34 @@ Learn more from PubMed:
 1. https://pubmed.ncbi.nlm.nih.gov/39194513/
 2. https://pubmed.ncbi.nlm.nih.gov/39457216/
 3. https://pubmed.ncbi.nlm.nih.gov/39390071/
+
+## 📝 Future Work:
+#### **Model Improvements**  
+- Scale fine-tuning dataset   
+- Experiment with larger base models (e.g., Mistral-8x7B, Llama 3)  
+- Add dynamic few-shot learning for context-aware responses  
+
+#### **Retrieval & Evidence**  
+- Integrate multi-source evidence (clinical guidelines, drug databases)  
+- Prioritize recent research via PubMed timestamp filtering  
+- Hybrid search (semantic + keyword) for rare medical terms  
+
+#### **Evaluation & Safety**  
+- Automated fact-checking using MedPaLM/BioBERT  
+- Adversarial testing against medical misinformation  
+- Bias audits (age/race/gender in responses)  
+
+#### **Deployment**  
+- FastAPI endpoint for EHR integration  
+- Multimodal support (image-based queries)  
+- Scheduled PubMed index updates (weekly/monthly)  
+
+#### **UX & Features**  
+- Multi-turn conversation memory  
+- Urgency detection (e.g., "seek ER care" flags)  
+- Multilingual translation support  
+
+#### **Compliance & Scaling**  
+- HIPAA-compliant anonymization for PHI  
+- Model quantization for edge/offline use  
+- Active learning (log uncertain responses for human review) 

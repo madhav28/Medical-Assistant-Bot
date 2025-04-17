@@ -1,16 +1,16 @@
 # Medical-Assistant-Bot
 
-## Install Requirements
-```
-pip install -r requirements.txt
-```
-
-## System Overview
+## ⚙️ System Overview
 This AI-powered medical assistant combines two key technologies:
 1. A fine-tuned language model for generating human-like responses
 2. A document retrieval system for evidence-based reference linking
 
-## Dataset Preparation
+## ⬇️ Install Requirements
+```
+pip install -r requirements.txt
+```
+
+## 📋 Dataset Preparation
 To improve the quality of the responses, I have augmented approximately 100K PubMed abstracts from 2023 and 2024. I used these 100K abstracts along with the mle_screening_dataset.csv to create a vector store. For QLoRA fine-tuning of Mistral-7B-Instruct-v0.3, I used a sample of 200 question-and-answer pairs as my training, validation, and testing datasets. I split the 200 samples into 160 for training, 20 for validation, and 20 for testing.
 
 ### Download PubMed Abstracts
@@ -20,7 +20,7 @@ By running the above scripts, a total of ~ 3M abstracts with PMIDs will be downl
 
 PubMed Abstracts data: https://michiganstate-my.sharepoint.com/:f:/r/personal/lellaom_msu_edu/Documents/Medical-Assistant-Bot/data?csf=1&web=1&e=UpQXix
 
-## QLoRA Finetuning
+## 🎛️ QLoRA Finetuning
 **Code:** [qlora_finetuning](./qlora_finetuning)
 
 - **Model & Method**  
@@ -52,7 +52,7 @@ PubMed Abstracts data: https://michiganstate-my.sharepoint.com/:f:/r/personal/le
 **Checkpoints:** https://michiganstate-my.sharepoint.com/:f:/r/personal/lellaom_msu_edu/Documents/Medical-Assistant-Bot/qlora_finetuning/checkpoints?csf=1&web=1&e=IkuXOg<br>
 **Best Model:** https://michiganstate-my.sharepoint.com/:f:/r/personal/lellaom_msu_edu/Documents/Medical-Assistant-Bot/qlora_finetuning/best_model?csf=1&web=1&e=4aNo6T
 
-## Vector Store
+## 🗃️ Vector Store
 **Code:** [vector_store](./vector_store/)
 
 Converted texts (PubMed abstracts and Answers) into a FAISS vector store for efficient semantic search. Key steps:
@@ -80,7 +80,7 @@ Converted texts (PubMed abstracts and Answers) into a FAISS vector store for eff
 
 pubmed_vector_index: https://michiganstate-my.sharepoint.com/:f:/r/personal/lellaom_msu_edu/Documents/Medical-Assistant-Bot/vector_store/pubmed_vector_index?csf=1&web=1&e=h2I2hS
 
-## Answer Generation Process
+## 💬 Answer Generation
 **Code:** [main](./main)
 1. **Question Processing**:
    - Formats input with system prompt establishing medical expertise
@@ -124,8 +124,8 @@ pubmed_vector_index: https://michiganstate-my.sharepoint.com/:f:/r/personal/lell
     - Validated line number accuracy (+/- 2 line tolerance)
     - Confirmed clinical context matches
 
-## Results
-### Illustration 1
+## ✅ Results
+### 📚 Illustration 1
 **Question:** What are the causes and treatments for chronic back pain?<br>
 **Bot Answer:**<br>
 Chronic back pain is a common condition that can be caused by a variety of factors. Here are some of the most common causes:
@@ -160,7 +160,7 @@ Learn more from PubMed:
 2. https://pubmed.ncbi.nlm.nih.gov/38942979/
 3. https://pubmed.ncbi.nlm.nih.gov/36448422/
 
-### Illustration 2
+### 📚 Illustration 2
 **Question:** How can I improve my cardiovascular health?<br>
 **Bot Answer:**<br>
 Improving cardiovascular health involves adopting a balanced lifestyle that includes regular exercise, a healthy diet, and avoiding harmful habits. Here are some specific steps you can take:
@@ -195,7 +195,7 @@ Learn more from PubMed:
 2. https://pubmed.ncbi.nlm.nih.gov/37882389/
 3. https://pubmed.ncbi.nlm.nih.gov/36103036/
 
-### Illustration 3
+### 📚 Illustration 3
 **Question:** What is Down Syndrome?<br>
 **Answer:**<br>
 Down Syndrome is a genetic disorder caused when abnormal cell division results in an extra full or partial copy of chromosome 21. This extra genetic material causes the developmental changes and physical features of Down Syndrome.

@@ -1,0 +1,57 @@
+Loaded 116401 documents
+Created 402321 text chunks
+JobId=53872925 JobName=cvs
+   UserId=lellaom(6188124) GroupId=adv(2490) MCS_label=N/A
+   Priority=16583 Nice=0 Account=general QOS=lellaom
+   JobState=RUNNING Reason=None Dependency=(null)
+   Requeue=1 Restarts=0 BatchFlag=1 Reboot=0 ExitCode=0:0
+   RunTime=00:08:12 TimeLimit=00:15:00 TimeMin=N/A
+   SubmitTime=2025-04-17T10:58:27 EligibleTime=2025-04-17T10:58:27
+   AccrueTime=2025-04-17T10:58:27
+   StartTime=2025-04-17T11:12:47 EndTime=2025-04-17T11:27:47 Deadline=N/A
+   SuspendTime=None SecsPreSuspend=0 LastSchedEval=2025-04-17T11:12:47 Scheduler=Backfill
+   Partition=general-long-gpu AllocNode:Sid=dev-amd24-h200:2469462
+   ReqNodeList=(null) ExcNodeList=(null)
+   NodeList=nvl-007
+   BatchHost=nvl-007
+   NumNodes=1 NumCPUs=1 NumTasks=1 CPUs/Task=1 ReqB:S:C:T=0:0:*:*
+   ReqTRES=cpu=1,mem=32G,node=1,billing=4980,gres/gpu=1
+   AllocTRES=cpu=1,mem=32G,node=1,billing=4980,gres/gpu=1
+   Socks/Node=* NtasksPerN:B:S:C=0:0:*:* CoreSpec=*
+   MinCPUsNode=1 MinMemoryNode=32G MinTmpDiskNode=0
+   Features=[intel16|intel18|(amr|acm)|nvf|nal|nif|agg|agx|(nfh|neh)] DelayBoot=00:00:00
+   OverSubscribe=OK Contiguous=0 Licenses=(null) Network=(null)
+   Command=/mnt/gs21/scratch/lellaom/Medical-Assistant-Bot/vector_store/job_script.sh
+   WorkDir=/mnt/gs21/scratch/lellaom/Medical-Assistant-Bot/vector_store
+   Comment=stdout=/mnt/gs21/scratch/lellaom/Medical-Assistant-Bot/vector_store/cvs.out 
+   StdErr=/mnt/gs21/scratch/lellaom/Medical-Assistant-Bot/vector_store/cvs.err
+   StdIn=/dev/null
+   StdOut=/mnt/gs21/scratch/lellaom/Medical-Assistant-Bot/vector_store/cvs.out
+   TresPerJob=gres/gpu:v100:1
+   MailUser=lellaom@msu.edu MailType=INVALID_DEPEND,BEGIN,END,FAIL,REQUEUE,STAGE_OUT
+   
+
+
+SLURM Job ID: 53872925
+WrkDir=/mnt/gs21/scratch/lellaom/Medical-Assistant-Bot/vector_store
+=========================================================================================================
+          JobID |            53872925 |      53872925.batch |     53872925.extern |          53872925.0 |
+        JobName |                 cvs |               batch |              extern |              python |
+           User |             lellaom |                     |                     |                     |
+       NodeList |             nvl-007 |             nvl-007 |             nvl-007 |             nvl-007 |
+         NNodes |                   1 |                   1 |                   1 |                   1 |
+         NTasks |                     |                   1 |                   1 |                   1 |
+          NCPUS |                   1 |                   1 |                   1 |                   1 |
+      AllocGRES |               gpu=1 |               gpu=1 |               gpu=1 |               gpu=1 |
+         ReqMem |                 32G |                     |                     |                     |
+      Timelimit |            00:15:00 |                     |                     |                     |
+        Elapsed |            00:08:14 |            00:08:14 |            00:08:14 |            00:08:06 |
+       TotalCPU |           07:23.666 |            00:00:03 |            00:00:00 |           07:23.666 |
+     AveCPULoad |            0.898109 |          0.00607287 |                     |            0.912893 |
+         MaxRSS |                     |              11372K |                168K |            4131364K |
+      MaxVMSize |                     |                     |                     |                   0 |
+          Start | 2025-04-17T11:12:47 | 2025-04-17T11:12:47 | 2025-04-17T11:12:47 | 2025-04-17T11:12:53 |
+            End |             Unknown |             Unknown |             Unknown | 2025-04-17T11:20:59 |
+       ExitCode |                 0:0 |                 0:0 |                 0:0 |                 0:0 |
+          State |             RUNNING |             RUNNING |             RUNNING |           COMPLETED |
+=========================================================================================================

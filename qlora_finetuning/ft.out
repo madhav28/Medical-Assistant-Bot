@@ -1,0 +1,62 @@
+Directory './checkpoints' does not exist.
+Directory './logs' does not exist.
+{'eval_loss': 0.8728163838386536, 'eval_runtime': 19.6037, 'eval_samples_per_second': 1.02, 'eval_steps_per_second': 1.02, 'epoch': 1.0}
+{'eval_loss': 0.772077202796936, 'eval_runtime': 19.6025, 'eval_samples_per_second': 1.02, 'eval_steps_per_second': 1.02, 'epoch': 2.0}
+{'eval_loss': 0.7568638920783997, 'eval_runtime': 19.5937, 'eval_samples_per_second': 1.021, 'eval_steps_per_second': 1.021, 'epoch': 3.0}
+{'train_runtime': 1514.5055, 'train_samples_per_second': 0.317, 'train_steps_per_second': 0.079, 'train_loss': 1.5449031829833983, 'epoch': 3.0}
+Directory './best_model' does not exist.
+JobId=53834641 JobName=ft
+   UserId=lellaom(6188124) GroupId=adv(2490) MCS_label=N/A
+   Priority=9648 Nice=0 Account=general QOS=lellaom
+   JobState=RUNNING Reason=None Dependency=(null)
+   Requeue=1 Restarts=0 BatchFlag=1 Reboot=0 ExitCode=0:0
+   RunTime=00:27:03 TimeLimit=00:30:00 TimeMin=N/A
+   SubmitTime=2025-04-16T20:56:27 EligibleTime=2025-04-16T20:56:27
+   AccrueTime=2025-04-16T20:56:27
+   StartTime=2025-04-16T20:57:46 EndTime=2025-04-16T21:27:46 Deadline=N/A
+   SuspendTime=None SecsPreSuspend=0 LastSchedEval=2025-04-16T20:57:46 Scheduler=Backfill
+   Partition=general-short AllocNode:Sid=dev-amd20-v100:3254138
+   ReqNodeList=(null) ExcNodeList=(null)
+   NodeList=nvf-005
+   BatchHost=nvf-005
+   NumNodes=1 NumCPUs=1 NumTasks=1 CPUs/Task=1 ReqB:S:C:T=0:0:*:*
+   ReqTRES=cpu=1,mem=32G,node=1,billing=4980,gres/gpu=1
+   AllocTRES=cpu=1,mem=32G,node=1,billing=4980,gres/gpu=1
+   Socks/Node=* NtasksPerN:B:S:C=0:0:*:* CoreSpec=*
+   MinCPUsNode=1 MinMemoryNode=32G MinTmpDiskNode=0
+   Features=[intel16|intel18|(amr|acm)|nvf|nal|nif|agg|agx|(nfh|neh)] DelayBoot=00:00:00
+   OverSubscribe=OK Contiguous=0 Licenses=(null) Network=(null)
+   Command=/mnt/gs21/scratch/lellaom/Medical-Assistant-Bot/qlora_finetuning/job_script.sh
+   WorkDir=/mnt/gs21/scratch/lellaom/Medical-Assistant-Bot/qlora_finetuning
+   Comment=stdout=/mnt/gs21/scratch/lellaom/Medical-Assistant-Bot/qlora_finetuning/ft.out 
+   StdErr=/mnt/gs21/scratch/lellaom/Medical-Assistant-Bot/qlora_finetuning/ft.err
+   StdIn=/dev/null
+   StdOut=/mnt/gs21/scratch/lellaom/Medical-Assistant-Bot/qlora_finetuning/ft.out
+   TresPerJob=gres/gpu:v100s:1
+   MailUser=lellaom@msu.edu MailType=INVALID_DEPEND,BEGIN,END,FAIL,REQUEUE,STAGE_OUT
+   
+
+
+SLURM Job ID: 53834641
+WrkDir=/mnt/gs21/scratch/lellaom/Medical-Assistant-Bot/qlora_finetuning
+=========================================================================================================
+          JobID |            53834641 |      53834641.batch |     53834641.extern |          53834641.0 |
+        JobName |                  ft |               batch |              extern |              python |
+           User |             lellaom |                     |                     |                     |
+       NodeList |             nvf-005 |             nvf-005 |             nvf-005 |             nvf-005 |
+         NNodes |                   1 |                   1 |                   1 |                   1 |
+         NTasks |                     |                   1 |                   1 |                   1 |
+          NCPUS |                   1 |                   1 |                   1 |                   1 |
+      AllocGRES |               gpu=1 |               gpu=1 |               gpu=1 |               gpu=1 |
+         ReqMem |                 32G |                     |                     |                     |
+      Timelimit |            00:30:00 |                     |                     |                     |
+        Elapsed |            00:27:05 |            00:27:05 |            00:27:05 |            00:26:58 |
+       TotalCPU |           26:00.360 |            00:00:03 |            00:00:00 |           26:00.360 |
+     AveCPULoad |            0.960222 |          0.00184615 |                     |            0.964376 |
+         MaxRSS |                     |              10000K |                164K |           15700720K |
+      MaxVMSize |                     |                     |                     |                   0 |
+          Start | 2025-04-16T20:57:46 | 2025-04-16T20:57:46 | 2025-04-16T20:57:46 | 2025-04-16T20:57:51 |
+            End |             Unknown |             Unknown |             Unknown | 2025-04-16T21:24:49 |
+       ExitCode |                 0:0 |                 0:0 |                 0:0 |                 0:0 |
+          State |             RUNNING |             RUNNING |             RUNNING |           COMPLETED |
+=========================================================================================================

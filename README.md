@@ -173,6 +173,8 @@ Learn more from PubMed:
 2. https://pubmed.ncbi.nlm.nih.gov/38942979/
 3. https://pubmed.ncbi.nlm.nih.gov/36448422/
 
+---
+
 ### 🧩 Illustration 2
 **Question:** How can I improve my cardiovascular health?<br>
 **Bot Answer:**<br>
@@ -207,6 +209,8 @@ Learn more from PubMed:
 1. https://pubmed.ncbi.nlm.nih.gov/39525383/
 2. https://pubmed.ncbi.nlm.nih.gov/37882389/
 3. https://pubmed.ncbi.nlm.nih.gov/36103036/
+
+---
 
 ### 🧩 Illustration 3
 **Question:** What is Down Syndrome?<br>

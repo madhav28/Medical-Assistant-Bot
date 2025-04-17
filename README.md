@@ -121,7 +121,7 @@ pubmed_vector_index: https://michiganstate-my.sharepoint.com/:f:/r/personal/lell
 
 ## Results
 ### Illustration 1
-**Question:** What are the causes and treatments for chronic back pain?
+**Question:** What are the causes and treatments for chronic back pain?<br>
 **Bot Answer:**
 "Chronic back pain is a common condition that can be caused by a variety of factors. Here are some of the most common causes:
 
@@ -155,7 +155,8 @@ Learn more from PubMed:
 2. https://pubmed.ncbi.nlm.nih.gov/38942979/
 3. https://pubmed.ncbi.nlm.nih.gov/36448422/"
 
-**Question:** How can I improve my cardiovascular health?
+### Illustration 2
+**Question:** How can I improve my cardiovascular health?<br>
 **Bot Answer:**
 "Improving cardiovascular health involves adopting a balanced lifestyle that includes regular exercise, a healthy diet, and avoiding harmful habits. Here are some specific steps you can take:
 
@@ -189,7 +190,8 @@ Learn more from PubMed:
 2. https://pubmed.ncbi.nlm.nih.gov/37882389/
 3. https://pubmed.ncbi.nlm.nih.gov/36103036/"
 
-**Question:** What is Down Syndrome?
+### Illustration 3
+**Question:** What is Down Syndrome?<br>
 **Answer:**
 "Down Syndrome is a genetic disorder caused when abnormal cell division results in an extra full or partial copy of chromosome 21. This extra genetic material causes the developmental changes and physical features of Down Syndrome.
 

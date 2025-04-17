@@ -210,7 +210,7 @@ Learn more from PubMed:
 
 ### 🧩 Illustration 3
 **Question:** What is Down Syndrome?<br>
-**Answer:**<br>
+**Bot Answer:**<br>
 Down Syndrome is a genetic disorder caused when abnormal cell division results in an extra full or partial copy of chromosome 21. This extra genetic material causes the developmental changes and physical features of Down Syndrome.
 
 Individuals with Down Syndrome may have a range of physical and developmental challenges, including cognitive delays, distinctive facial features, and a shortened lifespan compared to the general population. However, it's important to note that each person with Down Syndrome is unique, and many can lead healthy, fulfilling lives with appropriate support and care.

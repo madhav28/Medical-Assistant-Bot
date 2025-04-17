@@ -1,0 +1,83 @@
+question,answer
+What are the causes and treatments for chronic back pain?," Chronic back pain is a common condition that can be caused by a variety of factors. Here are some of the most common causes:
+
+1. Muscle or ligament strain: This is often caused by heavy lifting, poor posture, or sudden movements.
+2. Herniated disc: This occurs when the soft inner material of a disc in the spine bulges out and presses on a nerve.
+3. Osteoarthritis: This is a degenerative joint disease that can affect the spine.
+4. Skeletal imbalance: This can cause uneven wear and tear on the spine, leading to chronic pain.
+5. Spinal stenosis: This is a narrowing of the spinal canal that can put pressure on the spinal cord and nerves.
+6. Fractures: Fractures in the spine can cause chronic pain, especially in older adults.
+7. Infections: Infections in the spine can cause chronic pain.
+8. Degenerative disc disease: This is a condition in which the discs in the spine break down and lose their cushioning ability.
+
+Treatment for chronic back pain depends on the underlying cause. Here are some common treatments:
+
+1. Pain medication: Over-the-counter pain relievers, such as ibuprofen or acetaminophen, can help relieve pain. Prescription pain medication may be necessary for more severe pain.
+2. Physical therapy: Physical therapy can help strengthen the muscles in the back and improve flexibility, which can help reduce pain.
+3. Exercise: Regular exercise can help improve back strength and flexibility, which can help reduce pain.
+4. Heat and cold therapy: Applying heat or cold to the affected area can help relieve pain.
+5. Injections: Injections of corticosteroids or other medications can help reduce inflammation and relieve pain.
+6. Surgery: In some cases, surgery may be necessary to correct a structural problem in the spine.
+7. Lifestyle changes: Making lifestyle changes, such as improving posture, losing weight, and quitting smoking, can help reduce the risk of chronic back pain.
+8. Alternative therapies: Alternative therapies, such as acupuncture, massage, and chiropractic care, may help relieve pain.
+
+Learn more from mle_screening_dataset.csv:
+1. Line 9595 in https://github.com/madhav28/Medical-Assistant-Bot/blob/main/data/mle_screening_dataset.csv
+2. Line 9597 in https://github.com/madhav28/Medical-Assistant-Bot/blob/main/data/mle_screening_dataset.csv
+3. Line 2191 in https://github.com/madhav28/Medical-Assistant-Bot/blob/main/data/mle_screening_dataset.csv
+
+Learn more from PubMed:
+1. https://pubmed.ncbi.nlm.nih.gov/36958977/
+2. https://pubmed.ncbi.nlm.nih.gov/38942979/
+3. https://pubmed.ncbi.nlm.nih.gov/36448422/
+"
+How can I improve my cardiovascular health?," Improving cardiovascular health involves adopting a balanced lifestyle that includes regular exercise, a healthy diet, and avoiding harmful habits. Here are some specific steps you can take:
+
+1. Regular Exercise: Aim for at least 30 minutes of moderate-intensity exercise, such as brisk walking, cycling, or swimming, most days of the week. Incorporate strength training exercises into your routine at least twice a week.
+
+2. Healthy Diet: Focus on a diet rich in fruits, vegetables, lean proteins, and whole grains. Limit saturated fats, trans fats, cholesterol, added sugars, and sodium. Consider incorporating foods that are high in fiber, omega-3 fatty acids, and antioxidants.
+
+3. Maintain a Healthy Weight: Excess weight can put a strain on your heart. Aim for a healthy body mass index (BMI) of 18.5-24.9.
+
+4. Limit Alcohol: Drinking too much alcohol can raise blood pressure and lead to other heart problems. If you choose to drink, do so in moderation.
+
+5. Quit Smoking: Smoking damages your heart and blood vessels, increasing your risk of heart disease and stroke.
+
+6. Manage Stress: Chronic stress can contribute to heart disease. Find healthy ways to manage stress, such as meditation, yoga, or deep breathing exercises.
+
+7. Regular Check-ups: Regularly visit your healthcare provider for check-ups. They can monitor your blood pressure, cholesterol levels, and blood sugar levels, and provide guidance on maintaining a healthy heart.
+
+8. Control Chronic Conditions: If you have conditions like diabetes, high blood pressure, or high cholesterol, managing them effectively can help reduce your risk of heart disease.
+
+9. Take Medication as Prescribed: If your healthcare provider prescribes medication to manage your heart health, take it as directed.
+
+10. Get Enough Sleep: Lack of sleep can contribute to high blood pressure, weight gain, and other risk factors for heart disease. Aim for 7-9 hours of sleep per night.
+
+Learn more from mle_screening_dataset.csv:
+1. Line 8451 in https://github.com/madhav28/Medical-Assistant-Bot/blob/main/data/mle_screening_dataset.csv
+2. Line 8491 in https://github.com/madhav28/Medical-Assistant-Bot/blob/main/data/mle_screening_dataset.csv
+3. Line 748 in https://github.com/madhav28/Medical-Assistant-Bot/blob/main/data/mle_screening_dataset.csv
+
+Learn more from PubMed:
+1. https://pubmed.ncbi.nlm.nih.gov/39525383/
+2. https://pubmed.ncbi.nlm.nih.gov/37882389/
+3. https://pubmed.ncbi.nlm.nih.gov/36103036/
+"
+What is Down Syndrome?," Down Syndrome is a genetic disorder caused when abnormal cell division results in an extra full or partial copy of chromosome 21. This extra genetic material causes the developmental changes and physical features of Down Syndrome.
+
+Individuals with Down Syndrome may have a range of physical and developmental challenges, including cognitive delays, distinctive facial features, and a shortened lifespan compared to the general population. However, it's important to note that each person with Down Syndrome is unique, and many can lead healthy, fulfilling lives with appropriate support and care.
+
+Down Syndrome is the most common chromosomal condition diagnosed in infancy, and it occurs in approximately 1 in every 700 live births worldwide. It can affect anyone, regardless of race, gender, or socioeconomic status.
+
+Early intervention, education, and medical care can greatly improve the quality of life for individuals with Down Syndrome. With proper support, many people with Down Syndrome can live independently, work, and participate in community activities.
+
+Learn more from mle_screening_dataset.csv:
+1. Line 14017 in https://github.com/madhav28/Medical-Assistant-Bot/blob/main/data/mle_screening_dataset.csv
+2. Line 4457 in https://github.com/madhav28/Medical-Assistant-Bot/blob/main/data/mle_screening_dataset.csv
+3. Line 1874 in https://github.com/madhav28/Medical-Assistant-Bot/blob/main/data/mle_screening_dataset.csv
+
+Learn more from PubMed:
+1. https://pubmed.ncbi.nlm.nih.gov/39194513/
+2. https://pubmed.ncbi.nlm.nih.gov/39457216/
+3. https://pubmed.ncbi.nlm.nih.gov/39390071/
+"

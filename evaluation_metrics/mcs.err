@@ -1,0 +1,7 @@
+Traceback (most recent call last):
+  File "/mnt/gs21/scratch/lellaom/Medical-Assistant-Bot/evaluation_metrics/mean_cosine_similarity.py", line 30, in <module>
+    print(f"Base model mean cosine similarity: {mean_cosine_similarity(df1['answer'], df1['generated_answer']):.4f}")
+  File "/mnt/gs21/scratch/lellaom/Medical-Assistant-Bot/evaluation_metrics/mean_cosine_similarity.py", line 19, in mean_cosine_similarity
+    emb1 = emb1.numpy()
+TypeError: can't convert cuda:0 device type tensor to numpy. Use Tensor.cpu() to copy the tensor to host memory first.
+srun: error: nvf-008: task 0: Exited with exit code 1

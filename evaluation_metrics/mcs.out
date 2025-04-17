@@ -1,0 +1,55 @@
+JobId=53857315 JobName=mcs
+   UserId=lellaom(6188124) GroupId=adv(2490) MCS_label=N/A
+   Priority=15381 Nice=0 Account=general QOS=lellaom
+   JobState=RUNNING Reason=None Dependency=(null)
+   Requeue=1 Restarts=0 BatchFlag=1 Reboot=0 ExitCode=0:0
+   RunTime=00:00:56 TimeLimit=00:10:00 TimeMin=N/A
+   SubmitTime=2025-04-17T08:36:23 EligibleTime=2025-04-17T08:36:23
+   AccrueTime=2025-04-17T08:36:23
+   StartTime=2025-04-17T08:37:03 EndTime=2025-04-17T08:47:03 Deadline=N/A
+   SuspendTime=None SecsPreSuspend=0 LastSchedEval=2025-04-17T08:37:03 Scheduler=Backfill
+   Partition=general-short AllocNode:Sid=dev-amd24-h200:2469462
+   ReqNodeList=(null) ExcNodeList=(null)
+   NodeList=nvf-008
+   BatchHost=nvf-008
+   NumNodes=1 NumCPUs=1 NumTasks=1 CPUs/Task=1 ReqB:S:C:T=0:0:*:*
+   ReqTRES=cpu=1,mem=32G,node=1,billing=4980,gres/gpu=1
+   AllocTRES=cpu=1,mem=32G,node=1,billing=4980,gres/gpu=1
+   Socks/Node=* NtasksPerN:B:S:C=0:0:*:* CoreSpec=*
+   MinCPUsNode=1 MinMemoryNode=32G MinTmpDiskNode=0
+   Features=[intel16|intel18|(amr|acm)|nvf|nal|nif|agg|agx|(nfh|neh)] DelayBoot=00:00:00
+   OverSubscribe=OK Contiguous=0 Licenses=(null) Network=(null)
+   Command=/mnt/gs21/scratch/lellaom/Medical-Assistant-Bot/evaluation_metrics/job_script.sh
+   WorkDir=/mnt/gs21/scratch/lellaom/Medical-Assistant-Bot/evaluation_metrics
+   Comment=stdout=/mnt/gs21/scratch/lellaom/Medical-Assistant-Bot/evaluation_metrics/mcs.out 
+   StdErr=/mnt/gs21/scratch/lellaom/Medical-Assistant-Bot/evaluation_metrics/mcs.err
+   StdIn=/dev/null
+   StdOut=/mnt/gs21/scratch/lellaom/Medical-Assistant-Bot/evaluation_metrics/mcs.out
+   TresPerJob=gres/gpu:v100s:1
+   MailUser=lellaom@msu.edu MailType=INVALID_DEPEND,BEGIN,END,FAIL,REQUEUE,STAGE_OUT
+   
+
+
+SLURM Job ID: 53857315
+WrkDir=/mnt/gs21/scratch/lellaom/Medical-Assistant-Bot/evaluation_metrics
+=========================================================================================================
+          JobID |            53857315 |      53857315.batch |     53857315.extern |          53857315.0 |
+        JobName |                 mcs |               batch |              extern |              python |
+           User |             lellaom |                     |                     |                     |
+       NodeList |             nvf-008 |             nvf-008 |             nvf-008 |             nvf-008 |
+         NNodes |                   1 |                   1 |                   1 |                   1 |
+         NTasks |                     |                   1 |                   1 |                   1 |
+          NCPUS |                   1 |                   1 |                   1 |                   1 |
+      AllocGRES |               gpu=1 |               gpu=1 |               gpu=1 |               gpu=1 |
+         ReqMem |                 32G |                     |                     |                     |
+      Timelimit |            00:10:00 |                     |                     |                     |
+        Elapsed |            00:00:58 |            00:00:58 |            00:00:58 |            00:00:51 |
+       TotalCPU |           00:14.928 |            00:00:03 |            00:00:00 |           00:14.928 |
+     AveCPULoad |            0.257379 |           0.0517241 |                     |            0.292706 |
+         MaxRSS |                     |              12736K |                     |             468168K |
+      MaxVMSize |                     |                     |                     |                   0 |
+          Start | 2025-04-17T08:37:03 | 2025-04-17T08:37:03 | 2025-04-17T08:37:03 | 2025-04-17T08:37:08 |
+            End |             Unknown |             Unknown |             Unknown | 2025-04-17T08:37:59 |
+       ExitCode |                 0:0 |                 0:0 |                 0:0 |                 1:0 |
+          State |             RUNNING |             RUNNING |             RUNNING |              FAILED |
+=========================================================================================================
